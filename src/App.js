@@ -6,12 +6,11 @@ import Navbar from './components/navbar/Navbar';
 import ProductPage from './components/views/ProductsPage';
 import ContactUsPage from './components/views/ContactUsPage';
 
+
 function App() {
-  console.log(instance);
   return (
     <div className="App">
     <Router>
-     
       <Navbar/>
       <Routes>
         <Route path="/Home" element={<HomePage/>} />

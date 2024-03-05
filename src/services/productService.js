@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 const instance = axios.create({
-    url: 'https://fakestoreapi.com/products/'
+    baseURL: 'https://fakestoreapi.com'
 })
 
 export default instance;
