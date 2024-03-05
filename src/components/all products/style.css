@@ -1,0 +1,32 @@
+.divForBoxes{
+    width: 25%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.mainDiv{
+    display: flex;
+    flex-wrap: wrap;
+}
+.table{
+    text-align: center;
+    border-collapse: collapse;
+    width: 100%;    
+}
+.imgProduct{
+    width: 50px;
+    height: 50px;
+}
+.btnBuy{
+    width: 100%;
+    border-top: none;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    height: 45px;
+    background-color: transparent;
+    font-size: 22px;
+}
+.btnBuy:hover{
+    font-size: 30px;
+    border: none;
+}

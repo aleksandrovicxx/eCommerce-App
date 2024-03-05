@@ -16,7 +16,7 @@ const HomePage = () => {
         .then((res) => setMainProductInfo(res.data))
         .catch((error) => {
           setError(true);
-          console.error(error);
+          console.error(`Something wrong:` + error);
         })
         .finally(() => {
           setLoading(false);
@@ -26,7 +26,7 @@ const HomePage = () => {
     return (
         <div>
             {loading ? (
-                <loading />
+                <Loading />
             ) : error ? (
                 <Error />
             ) : (

@@ -1,3 +1,31 @@
 .imgMainProduct{
     height: 200px;
 }
+.divPhoto{
+    width: 50%;
+    border: 1px solid black;
+    padding: 20px;
+    margin: 20px;
+}
+.divDetails{
+    text-align: left;
+    width: 50%;
+    border: 1px solid black;
+    padding: 20px;
+    margin: 20px;
+}
+.divMainProduct{
+    display: flex;
+}
+
+.price{
+    background-color: green;
+    display: inline-block;
+    font-size: 30px;
+}
+.buyBtn{
+    background-color: transparent;
+    border: green 2px solid;
+    font-size: 30px;
+    text-align: right;
+}

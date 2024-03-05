@@ -9,19 +9,26 @@ const MainProduct = ({ mainProductInfo }) => {
     const { title, price, description, image, rating } = highestRatedProduct;
 
     return (
-        <div>
-            <h1>Our main product</h1>
-            <div>
-                <img src={image} alt={title} className="imgMainProduct"/>
+        <>
+        <div className="divMainProduct">
+            <div className="divPhoto">
+            <h3>Our Must Sell Product:</h3>
                 <h2>{title}</h2>
+                <img src={image} alt={title} className="imgMainProduct"/>
+            </div>
+            <div className="divDetails">
                 <h3>About product:</h3>
                 <p>{description}</p>
                 <h3>Price:</h3>
-                <p>${price}</p>
+                <div>
+                    <p className="price">${price}</p>
+                    <button className="buyBtn">Buy</button>
+                </div>
                 <p>Rating: {rating.rate}</p>
                 <p>Total Ratings: {rating.count}</p>
             </div>
         </div>
+        </>
     );
 }
 
