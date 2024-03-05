@@ -1,0 +1,25 @@
+    .Logo{
+        fill: white;
+        background-color: wheat;
+        width: 100%;
+    }
+    .navTabsItem {
+        font-size: 22px;
+        border-left: 1px solid rgb(255, 246, 193);
+        border-right: 1px solid rgb(255, 246, 193);
+        color:  rgb(255, 246, 193);
+        text-decoration: none;
+        border-radius: 5px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .navTabs{
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        background-color: black;
+        /* margin-top: 6px; */
+    }
+    .navbar{
+        /* clear: both */
+    }
