@@ -1,0 +1,19 @@
+img{
+    height: 150px;
+    width: 150px;
+}
+table{
+    width: 100%;
+}
+table, td{
+    border: solid 2px black;
+}
+.pricePurchasedProduct{
+    background-color: wheat;
+    font-size: 32px;
+    font-weight: 900;
+}
+.detailsPurchasedProduct{
+    background-color: rgb(255, 244, 222);
+    font-size: 22px;
+}

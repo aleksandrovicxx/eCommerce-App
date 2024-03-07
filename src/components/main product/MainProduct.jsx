@@ -1,4 +1,4 @@
-import "./style.css"
+import "./mainProduct.css"
 
 const MainProduct = ({ mainProductInfo }) => {
 

@@ -1,0 +1,25 @@
+.sortBy{
+    background-color: none;
+    font-size: 22px;
+    border-left: 2px solid black;
+    border-radius: 5px;
+    border-right: 2px solid black;
+    border-top: none;
+    border-bottom: none;
+}
+.selectCategory{
+    background-color: none;
+    font-size: 22px;
+    border-left: 2px solid black;
+    border-radius: 5px;
+    border-right: 2px solid black;
+    border-top: none;
+    border-bottom: none;
+}
+.selectAndSort{
+    display:  flex;
+    justify-content: space-evenly;
+}
+.selectAndSort select {
+    width: 40%;
+}

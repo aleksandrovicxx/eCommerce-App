@@ -1,0 +1,39 @@
+.product-item {
+    display: inline-block; /* Proizvodi će biti poredani jedan pored drugog */
+    margin: 10px; /* Margina između proizvoda */
+}
+
+.product-link {
+    text-decoration: none;
+}
+
+.product-grid-item {
+    border: 1px solid #ccc; /* Dodajte ivice između proizvoda */
+    padding: 10px; /* Razmak unutar proizvoda */
+    width: 200px; /* Širina proizvoda */
+}
+
+.product-image {
+    width: 100%; /* Slika će zauzeti celu širinu roditeljskog elementa */
+    height: auto; /* Visina će biti automatski prilagođena */
+}
+
+.product-title {
+    margin: 5px 0; /* Margina između naslova i cene */
+}
+
+.product-price {
+    margin-bottom: 10px; /* Margina ispod cene */
+}
+
+.btnBuy {
+    background-color: #007bff; /* Boja dugmeta */
+    color: #fff; /* Boja teksta */
+    border: none;
+    padding: 5px 10px; /* Razmak unutar dugmeta */
+    cursor: pointer;
+}
+
+.btnBuy:hover {
+    background-color: #0056b3; /* Boja dugmeta na hover */
+}

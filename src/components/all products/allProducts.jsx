@@ -1,33 +1,19 @@
+import { Link } from 'react-router-dom';
 import React from 'react';
-import "./style.css"
+import { useCart } from '../../contexts/CartContext';
+import "./allproduct.css"
+import SingleProductPage from '../views/SingleProductPage';
 
 const AllProducts = ({ product }) => {
-    return (
-        <div className='mainDiv'>
-            {product.map(singleProduct => (
-                <div key={singleProduct.id} className="divForBoxes">
-                    <table className='table'>
-                        <tbody>
-                            <tr>
-                                <td colSpan="2"><img src={singleProduct.image} alt={singleProduct.title} className='imgProduct'/></td>
-                            </tr>
-                            <tr>
-                                <td colSpan="2"><strong>{singleProduct.title}</strong></td>
-                            </tr>
-                            <tr>
-                                <td colSpan="2">{singleProduct.price}$</td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <button className='btnBuy'>Buy</button>
-                                </td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
-            ))}
-        </div>
-    );
+  const { purchasedProducts, setPurchasedProducts } = useCart();
+
+  return (
+    <div className='mainDiv'>
+      <Link to={`products/${product.id}`}>
+        
+      </Link>
+    </div>
+  );
 }
 
 export default AllProducts;

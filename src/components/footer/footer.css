@@ -1,0 +1,11 @@
+.footersPages{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+.footersDiv{
+    background-color: rgba(255, 237, 203, 0.562);
+    border: solid 1px black;
+    vertical-align: text-top;
+    padding: 20px;
+}
