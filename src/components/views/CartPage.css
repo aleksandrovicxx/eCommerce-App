@@ -17,3 +17,13 @@ table, td{
     background-color: rgb(255, 244, 222);
     font-size: 22px;
 }
+.x{
+    fill: red;
+}
+.x :hover{
+    fill: white;
+}
+
+.xtr :hover{
+    background-color: red;
+}

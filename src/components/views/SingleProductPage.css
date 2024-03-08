@@ -1,0 +1,11 @@
+.divSingleProduct{
+    display: flex;
+    float: left;
+    margin-bottom: 100px;
+}
+.divForImgAndH1{
+    width: 70%;
+}
+.divForDetailAndPrice{
+    width: 30%;
+}
