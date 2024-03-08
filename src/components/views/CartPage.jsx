@@ -1,41 +1,47 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { useCart } from '../../contexts/CartContext';
-import { FaTimes, FaCheck } from 'react-icons/fa';
-import "./CartPage.css"
+import { FaTimes } from 'react-icons/fa';
+import "./CartPage.css";
 
 const CartPage = () => {
-  const { purchasedProducts } = useCart();
-  const { deleteProduct } = useState()
+  const { purchasedProducts, deleteProduct, deleteAllProducts } = useCart();
 
-  const removeSingleProduct = (product) =>{
-    deleteProduct(product)
-  }
+  const removeSingleProduct = (productId) => {
+    deleteProduct(productId);
+  };
+
+  const removeAllProducts = () => {
+    deleteAllProducts();
+  };
 
   return (
     <div>
       <h2>Cart Items</h2>
+      <div className='divForDeleteBtn'>
+        <button className='deleteBtn' onClick={removeAllProducts}>Delete all products</button>
+      </div>
       {purchasedProducts.length > 0 ? (
         <table>
+          <tbody>
             {purchasedProducts.map(product => (
-            <tr>
-                <td key={product.id} className='imgPurchasedProduct'>
-                    <img src={product.image} alt={product.title}/>
+              <tr key={product.id}>
+                <td className='imgPurchasedProduct'>
+                  <img src={product.image} alt={product.title} />
                 </td>
                 <td className='detailsPurchasedProduct'>{product.title}</td>
                 <td className='pricePurchasedProduct'>${product.price}</td>
                 <td>
-                  <tr className='xtr' onClick={() => removeSingleProduct(product)}>
-                  <FaTimes className='x'/>
-                  </tr>
+                  <FaTimes className='x' onClick={() => removeSingleProduct(product.id)} />
                 </td>
-            </tr>
-          ))}
+              </tr>
+            ))}
+          </tbody>
         </table>
       ) : (
         <p>Your cart is empty</p>
       )}
     </div>
   );
-}
+};
 
 export default CartPage;

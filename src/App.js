@@ -3,7 +3,7 @@ import instance from './utils/api';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import HomePage from './components/views/homePage';
 import Navbar from './components/navbar/Navbar';
-import ProductPage from './components/views/ProductsPage';
+import ProductPage from "./components/views/ProductsPage"
 import ContactUsPage from './components/views/ContactUsPage';
 import CartPage from "./components/views/CartPage"
 import Footer from './components/footer/footer';

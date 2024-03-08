@@ -21,9 +21,27 @@ table, td{
     fill: red;
 }
 .x :hover{
-    fill: white;
+    fill: rgb(122, 46, 46);
 }
 
 .xtr :hover{
     background-color: red;
+}
+.deleteBtn{
+    color:  red;
+    border: none;
+    font-size: 18px;
+    background-color: transparent;
+    border-left: 1px solid red;
+    border-right: 1px solid red;
+    border-radius: 5px;
+}
+.divForDeleteBtn{
+    text-align: end;
+}
+.deleteBtn:hover{
+    background-color: rgba(104, 3, 3, 0.205);
+    border: none;
+    color:  white;
+
 }

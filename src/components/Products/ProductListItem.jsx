@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./ProductListItem.css"; 
-import { useCart } from "../../../contexts/CartContext";
+import { useCart } from "../../contexts/CartContext";
 import { useState } from "react";
 
 const ProductListItem = ({ product }) => {

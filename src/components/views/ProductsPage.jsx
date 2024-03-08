@@ -3,7 +3,7 @@ import instance from '../../utils/api';
 import Loading from "./Loading";
 import Error from "./Error";
 import "./productPage.css"
-import ProductList from './Products/ProductList';
+import ProductList from "../Products/ProductList"
 
 const ProductPage = () => {
     const [product, setProduct] = useState([]);
