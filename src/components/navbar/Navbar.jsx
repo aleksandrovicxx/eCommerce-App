@@ -1,9 +1,9 @@
 import NavTabs from "./NavTabs";
 import { useNavigate } from "react-router-dom";
-import { ReactComponent as Logo } from "../../photos/logo.svg";
+import { ReactComponent as Logo } from "../../assets/logo.svg";
 import "./style.css"
 import React from "react";
-import {ReactComponent as CartIcon} from "../../photos/shopping-cart.svg"
+import {ReactComponent as CartIcon} from "../../assets/shopping-cart.svg"
 import { useCart } from "../../contexts/CartContext"; 
 import CartContext from "../../contexts/CartContext"
 

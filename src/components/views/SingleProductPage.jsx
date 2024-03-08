@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { useParams, useNavigate, Navigate } from "react-router-dom";
-import instance from "../../services/productService";
+import instance from "../../utils/api";
 import "./SingleProductPage.css"
 const SingleProductPage = () => {
   const [product, setProduct] = useState(null)

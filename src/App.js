@@ -1,5 +1,5 @@
 import './App.css';
-import instance from './services/productService';
+import instance from './utils/api';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import HomePage from './components/views/homePage';
 import Navbar from './components/navbar/Navbar';

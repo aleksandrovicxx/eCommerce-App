@@ -1,5 +1,5 @@
 import { useState, useEffect} from "react"
-import instance from "../../services/productService"
+import instance from "../../utils/api"
 import MainProduct from "../main product/MainProduct"
 import Loading from "./Loading"
 import Error from "./Error"
