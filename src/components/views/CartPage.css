@@ -18,7 +18,7 @@ table, td{
     font-size: 22px;
 }
 .x{
-    fill: red;
+    fill: red
 }
 .x :hover{
     fill: rgb(122, 46, 46);
