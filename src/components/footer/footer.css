@@ -4,7 +4,7 @@
     width: 100%;
 }
 .footersDiv{
-    position: fixed;
+    /* position: fixed; */
     width: 100%; 
     bottom: 0;
     background-color: rgba(255, 237, 203, 0.562);

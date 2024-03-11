@@ -39,7 +39,7 @@ const CartPage = () => {
             </tbody>
           </table>
           <form>
-            <fieldset onSubmit={}>
+            <fieldset >
               <h3>Personal info</h3>
               <label htmlFor="Name">Name:</label>
               <input type="text" />
@@ -52,12 +52,11 @@ const CartPage = () => {
               <input type="text"/> <br />
               <label htmlFor="City">City:</label>
               <input type="text"/> <br />
-              <label htmlFor="Country">Country:</label>
+              <label htmlFor="Country">Street name:</label>
               <input type="text"/> <br />
               <label htmlFor="Number">Number:</label>
               <input type="text"/> <br />
-
-                <button></button>
+                <input type="submit" value="Buy products" className='BuyProductsBtn'/>
             </fieldset>
           </form>
         </div>

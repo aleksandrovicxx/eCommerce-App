@@ -43,5 +43,18 @@ table, td{
     background-color: rgba(104, 3, 3, 0.205);
     border: none;
     color:  white;
+}
 
+label{
+    font-size: 20px;
+    color: red;
+}
+.BuyProductsBtn{
+    background-color: rgba(245, 222, 179, 0.479);
+    font-size: 22px;
+    border: none;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    border-radius: 5px;
+    margin-top: 10px;
 }
