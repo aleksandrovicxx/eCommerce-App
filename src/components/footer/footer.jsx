@@ -4,7 +4,7 @@ const Footer = () =>{
     return (
         <div>
             <div className="footersDiv">
-                <p>© 2024 Name Your Company</p>
+                <p>© 2024   Name Your Company</p>
                 <div className="footersPages">   
                     <a href="/PrivacyPolicy">Privacy Policy</a>
                     <a href="/TermsOfService">Terms of Service</a>
